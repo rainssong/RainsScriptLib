@@ -1,0 +1,23 @@
+:: 转载请注明出处
+:: by 非常批处理论坛 bbs.verybat.cn
+:: “梦想种子”原创，在此感谢“梦想种子”
+
+【模拟普通话参考字典（入门使用）】
+
+不变形声母：b p m d t n l g k h z c s r y w sh
+变形声母： q-ch x-sh v-y
+不定形声母：f-f或ph j-j或dr zh-dr或g ch-ch或tr
+韵母是i的声母拼音：
+zhi-gey chi-chur shi-shir zi-ji ci-zur si-sur ni-nee ri-rur
+
+非单独用韵母：
+a-ar an-un或an或arn ao-arl或au ai-uy或ie e-er或ir或ur en-ern
+ie-eah uan-wun ei-ay i-eey ia-ia in-ean
+iu-eu ui-uay o-al ou-ow或ol或oa uo-awl或all或uo u-oo un-un或uen
+eng-erng ang-ung或oung ing-ing ong-ong uang-wang ian-en iao-iao
+v-u
+
+单独用韵母：
+a-ah an-arn ao-ow ai-i e-ur
+ye-yeah wan-wan ei-a yi-e wei-way
+o-all ou-o wo-wall wu-oo wen-werun

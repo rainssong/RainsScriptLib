@@ -1,0 +1,9 @@
+:: 转载请注明出处
+:: by 非常批处理论坛 bbs.verybat.cn
+:: 9306516整理(非本人原创)
+在HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Environment项目下新建子键
+例如
+reg add "HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Environment" /v qq /t reg_expand_sz /d d:\qq\qq.exe /f
+
+%qq%就是d:\qq\qq.exe而且是永久性的
+重启动后生效

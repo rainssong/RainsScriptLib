@@ -1,0 +1,2 @@
+1、http://www.huoche.com.cn/bus/chengdu.asp (格式基本吻合，只需少量改动)
+2、http://bus.dachengdu.com/ (格式差别比较大，但是提供每个站点的换乘车次)

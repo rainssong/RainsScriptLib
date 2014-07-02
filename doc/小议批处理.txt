@@ -1,0 +1,121 @@
+:: 转载请注明出处
+:: 非常批处理论坛 bbs.verybat.cn   会员 9306516整理(非本人原创)
+玩转批处理：
+批处理与其它语言一结合，就非常强大，简直是无所不能。
+请看下面，摘自http://dormforce.net/Blog/electr ... 07/01/17/13429.aspx
+1：通过echo命令重定向标准输出到临时文件，然后用debug执行这个临时文件里的命令，这个方法比较通用，批处理输出文件都是用的这个方法，不足是需要产生临时文件
+echo D C000:000> v.dat
+echo D>>v.dat
+echo D>>v.dat
+echo Q>>v.dat
+Debug.exe  < v.dat >info.txt
+@echo off
+echo o 70 17 >tmp.txt
+echo o 71 ff >>tmp.txt
+echo Q >>tmp.txt
+debug <tmp.txt
+del tmp.txt 
+
+2：prompt命令支持一个特殊的参数 $_ ，改参数表示换行，所以在批处理中灵活应用可以写出紧凑的汇编代码
+echo exit|%ComSpec% /k prompt e 100 B4 00 B0 12 CD 10 B0 03 CD 10 CD 20 $_g$_q$_|debug>nul
+
+3： more支持一个 +n 参数，表示从文件的指定行开始输出，我们利用这个参数把批处理本身尾部的一些汇编代码直接通过 | 管道直接输出到debug命令
+<"%~f0" more +2 |debug & 0.com
+goto:eof
+e100 B0 13 CD 10 C4 2F AA 11 F8 64 13 06 6C 04 EB F6
+rbx
+0
+rcx
+10
+n 0.com
+w
+q
+
+3：强悍的ASCode   所有的代码全部分布于ASCII码表的可显示字符范围中，当然这样的程序不是碰巧得到的，而是人为的构造出来的，其中需要用到许多技巧。比如最常见的中断调用代码int 21(CD 21)，因为不在ASCII可显示字符范围内，所以用到许多压栈、出栈、增减代码来构造，所以它的代码段是动态变化的。这样的代码被叫做 ASCODE，这样的技术被称作 ASCII Assemble，一门即将消失的技术
+@echo off
+chcp 437>nul&graftabl 936>nul
+echo hP1X500P[PZBBBfh#b##fXf-V@`$fPf]f3/f1/5++u5x>in.com
+set  /p password=请输入密码:<nul
+for /f "tokens=*" %%i in ('in.com') do set password=%%i
+del in.com
+echo.
+echo The Password is:"%password%"
+pause
+
+4： 与VBS集成
+< "%~f0" more +3 >v.vbs
+cscript //nologo v.vbs
+goto:eof
+msgbox now
+wscript.echo ">>>CN-DOS<<<"
+wscript.stdin.readline
+
+5：方便的mshta方法
+巧妙利用了Windows系统里自带的javascript:和vbscript:协议使得在批处理中能够在一行的狭小空间里插入简短的VBS/JS代码
+事实上使用 iexplore.exe 和 Helpctr.exe 也可以，不过mshta.exe的权限相对要高一点
+mshta "javascript:new ActiveXObject('SAPI.SpVoice').Speak('Hi, CN-DOS guys!');window.close();"
+
+6：精巧的bat/vbs混合编程
+:On Error Resume Next
+Sub bat
+echo off & cls
+echo Batching_codez_here_following_vbs_rules & pause
+start wscript -e:vbs "%~f0"
+Exit Sub
+End Sub
+MsgBox "This is vbs" 
+
+7：与.NET集成  由于 .NET/C# 是一种严格的语言，所以推荐用more直接生成源代码
+@echo off
+set "dnfpath=C:\Windows\Microsoft.NET\Framework"
+set "est=DO_NOT_ZT_WITHOUT_PERMISSION"
+for /f "delims=" %%v in ('dir /ad /b %dnfpath%\v?.*') do (
+         if exist "%dnfpath%\%%v\csc.exe" set "cscpath=%dnfpath%\%%v\csc.exe"
+)
+
+< "%~f0" more +17 > "%temp%\estTrayTip.cs"
+%cscpath% "/out:%cd%\estTrayTip.exe" "%temp%\estTrayTip.cs"
+estTrayTip.exe C:\Windows\System32\acwizard.ico 看什么看 没见过批处理啊？没见过任务栏的汽泡信息啊？见过了吧？见过了顶electronixtar的帖子。 2
+:exe的参数解释：estTrayTip.exe 图标路径　标题　内容　提示图标类型Error、Info、None、Warning，这里取2=Info。每个参数都必须正确填写
+>nul ping 127.1 -n 1
+del estTrayTip.exe
+
+goto:eof
+
+:estTrayTip
+
+using System;
+using System.Windows.Forms;
+using System.Drawing;
+
+namespace estTrayTip
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            NotifyIcon estIcon = new NotifyIcon();
+            estIcon.Icon = new Icon(args[0]);
+            estIcon.Visible = true;
+            ToolTipIcon estToolTipIcon = new ToolTipIcon();
+            switch(args[3])
+            {
+                case "1":
+                    estToolTipIcon = ToolTipIcon.Error; break;
+                case "2":
+                    estToolTipIcon = ToolTipIcon.Info; break;
+                case "3":
+                    estToolTipIcon = ToolTipIcon.None; break;
+                case "4":
+                    estToolTipIcon = ToolTipIcon.Warning; break;
+            }
+            estIcon.ShowBalloonTip(1,args[1],args[2],estToolTipIcon);
+        }
+    }
+}
+
+8：还可以与其他语言集成 例如Python，Perl等
+
+看到这里，您一定不再怀疑BAT的强大了吧，C#可是有指针的。意味着可以做到很复杂的事。满足大部分的要求。 
+
+现在的你是不是迫不急待地想学批处理了。那赶快加入非常批处理交流论坛吧

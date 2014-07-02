@@ -1,0 +1,831 @@
+
+                                        计算机与网络英汉对照词典
+
+
+[A] 
+
+Alphamosic Graphics　字母镶嵌图形 
+Active Directory　动态目录 
+ADSI　动态目录服务接口 
+Autosizing　自动调整大小 
+Anonymous FTP 匿名文件传输 
+Access Control 访问控制 
+ARP 地址解析协议 
+API 应用程序界面 
+ACL 访问控制表 
+Attenuation 衰减 
+ARP 地址解析协议 
+Adapter 适配器 
+Average seek time 平均寻道时间 
+Authorization 授权，认证 
+Adapter 适配器 
+A3D 3D定位音效技术 
+Acrobat Adobe阅读软件 
+AC97 音响数字/模拟转换 
+ACL 访问控制表 
+A3D Aureal声音技术 
+ATAPI AT附件包接口 
+aliasing 混淆 
+autoexec.bat 自动批处理文件 
+
+API 应用程序设计接口 
+ASP 服务器开发专用脚本 
+ADSL 非对称数字用户线路 
+AVI 影音文件 
+ADSL 非对称数字用户环线 
+Algorithm 算法 
+Alpha DEC公司微处理器 
+Authorwsre Authorware 多媒体创作软件 
+AMI BIOS BIOS基本输入/输出系统 
+AGP 加速图形接口 
+Aactive matrix 动态矩阵 
+Aactive Network 动态网络 
+Authentication and Authorization 鉴别与授权 
+Auditing 审计，计审 
+At Work Architecture，Microsoft Microsoft的At Work体系结构 
+
+
+--------------------------------------------------------------------------------
+
+[B] 
+
+BISDN　宽带综合业务数字网 
+BRI　基本速率接口 
+BIS　商务信息系统 
+Bundled Software　捆绑软件 
+Bluetooth　蓝牙 
+Back Door 后门 
+Bridge 网桥 
+Bit 比特 
+Backup 备份 
+Beta Test Beta测试 
+Bookmark 书签 
+BASIC 编程语言 
+B2B 商务对商务 
+Bandwidth 带宽 
+BBS 电子布告栏系统 
+Beta 测试第二版 
+bit 位 
+Bug 程序缺陷、臭虫 
+Byte－Oriented Protocol 面向字节规程 
+Bus Topology 总线拓扑 
+Bursts 突发传送 
+Burst Mode，NetWare NetWare的突发方式 
+Bulletin Board System 公告牌系统 
+Brouter（Bridge／router） 桥路器（桥接器／路由器） 
+Broadcast Storm 广播风暴 
+Broadcast 广播 
+Broadband Services 宽带（通信）服务 
+Broadband ISDN 宽带综合业务数字网 
+Bridging 桥接 
+Breakout BoX 中断盒 
+Border Gateway Protocol 边界网关协议 
+BNC Connector BNC连接器 
+Block Suballocation 磁盘块再分配 
+Bit－Oriented Protocol 面向位协议 
+BITNET BITNET网 
+Bindery 装订 
+Binary Synchronous Communications 二进制同步通信（规程） 
+Bell Operating Companies 贝尔运营公司 
+Bell modem Standards 贝尔调制解调器标准 
+Bellman－Ford Distance－Vector Routing Algorithm Bellman－Ford距离向量 
+
+--------------------------------------------------------------------------------
+[C] 
+
+CFTV　付费电视 
+CDMA　码分多址技术 
+CRC　循环冗余检查 
+CD-ROM　只读光盘机 
+CMIP 通用管理信息协议 
+Cable 电缆 
+Cable Modem 电缆调制解调器 
+Chipset 芯片组 
+CNNIC 中国互联网络信息中心 
+CRT 阴极射线管 
+Cache 高速缓冲存储器 
+Client/Server 客户机/服务器 
+Cookie 网络小甜饼 
+Cache 高速缓冲存储器 
+CMOS 可读写芯片 
+CGI 公共网关接口 
+Cryptography 密码术；密码学 
+Corporation for Open Systems 开放系统公司 
+Copper Distributed Data Interface 铜质分布式数据接口 
+Cooperative Accessing 协同处理 
+Controlled Access Unit 受控访问单元 
+Contention 争用 
+Container Objects 所有者对象 
+Connection－Oriented and Connectionless Protocols 面向连接和无连接协议 
+Connectionless Network Protocol 无连接网络协议 
+Connectionless and Connection－Oriented Transactions 无连接和面向连接事务 
+Configuration Management 配置管理 
+Conditioning 调节 
+Concentrator Devices 集中器设备 
+Compression Techniques 压缩技术 
+Compound Documents 复合文档 
+Complex Instruction Set Computer 复杂指令系统计算机 
+Communication Services 通信服务 
+Communication Server 通信服务器 
+Communication Controller 通信控制器 
+Communication 通信 
+Common Programming Interface for Communication IBM IBM的通信公用编程接口 
+Common Open Software Environment 公用开放软件环境 
+Common Object Request Broker Architecture 公用对象请求代管者体系结构 
+Common Object Model 公用对象模型 
+
+--------------------------------------------------------------------------------
+[D] 
+
+Dvorak Keyboard　Dvorak键盘 
+DDR　双倍速率SDRAM 
+DAO 数据访问对象 
+Daemon 后台程序 
+DTR 数据终端就绪 
+DASD 直接访问存储设备 
+DMI 桌面管理界面 
+DPI 打印分辨率 
+DHCP 动态主机配置协议 
+Driver 驱动程序 
+DDN 数字数据网络 
+DRAM 动态随机存取内存 
+DSL 数字用户环线 
+Desktop 桌面、台式电脑 
+Download 下载 
+Digital camera Digital camera 数码相机 
+Dynamic Routing 动态路由选择 
+Dynamic Data Exchange 动态数据交换 
+Duplex Transmission 双工传输 
+Duplexed Systems 双工系统 
+Downsizing 向下规模化，下移 
+DOS Requester，NetWare NetWare礑OS请求解释器 
+Domains 域 
+Domain Name Service 域名服务 
+Document Management 文档管理 
+Document Interchange Standards 文档交换标准 
+Distributed System Object Model 分布式系统对象模型 
+Distributed Relational Database Architecture 分布式关系数据库体系结构 
+Distributed Queue Dual Bus 分布式队列双总线 
+Distributed Processing 分布式处理 
+Distributed Objects EveryWhere（DOE），SunSoft SunSoft的全分布式对象 
+Distributed Object Management Systems 分布式对象管理系统 
+Distributed Object Management Facility（DOMF），Hewlett－Packard HP的分布式对象管理设施 
+Distributed Name Service，DEC DEC的分布式命名服务 
+Distributed Management Environment 分布式管理环境 
+Distributed Management 分布式管理 
+Distributed File Systems 分布式文件系统 
+Distributed File System，OSF DCE OSF DCE的分布式文件系统 
+Distributed Database 分布式数据库 
+Distributed Computing Environment（DCE），OSF 开放软件基金会（OSF）的分布式计算环境 
+
+--------------------------------------------------------------------------------
+[E] 
+
+Edge Device 边界设备 
+Email Filter 电子邮件过滤器 
+EPP 增强型并行端口 
+Extranet 外联网 
+EISA总线 扩展工业标准结构 
+External Bus 外部总线 
+EDO RAM 动态存储器 
+Ethernet 以太网 
+Email client 电子邮件客户端程序 
+Exterior Gateway Protocols 外部网关协议 
+Extended Industry Standard Architecture Bus 扩展工业标准体系结构（EISA）总线 
+EtherTalk EtherTalk 适配器 
+Ethernet100VG－AnyLAN（Voice Grade） 100VG－AnyLAN（语音级 ）以太网 
+Ethernet 100Base－X 100Base－X以太网 
+Ethernet 10BaSe－T（Twisted－pair） 10Base－T（双绞线）以太网 
+Ethernet 10Base－5（Thicknet） 10Base－5（粗电缆）以太网 
+Ethernet 10Base－2（Thinnet） 10Base－2（细电缆）以太网 
+Ethernet 以太网 
+Error Detection and Correction 检错和纠错 
+Enterprise System Connections（SCON），IBM IBM的企业级系统连接 
+Enterprise System Architecture，IBM IBM的企业级系统体系结构 
+Enterprise Networks 企业网 
+Enterprise Management Architecture，DEC DEC的企业（点）管理体系结构 
+End System－to－Intermediate System（ES－IS）Routing 端系统对中间系统 
+Encryption 加密 
+Encina Encina应用程序 
+Encapsulation 封装 
+E－Mail 电子函件 
+Elevator Seeking 电梯式查找［寻道］算法 
+Electronic Software Distribution（ESD）and Licensing 电子软件分发（ESD）和特许（ESL） 
+Electronic Mail Broadcasts to a Roaming Computer 对漫游计算机的电子函件广播 
+Electronic Mail 电子函件 
+Electronic Industries Association 电子工业协会 
+Electronic Data Interchange 电子数据交换 
+Electromagnetic Interference 电磁干扰 
+EISA（Extended Industry Standard Architecture）Bus EISA（扩展工业标准体系结构）总线 
+EIA／TIA 568 Commercial Building Wiring Standard EIA／TIA 568 商用建 
+
+--------------------------------------------------------------------------------
+[F] 
+
+File Server　文件服务器 
+FCC & BCC　转发与密送 
+Flash　动画制作软件 
+Failback 自动恢复 
+FAT 文件分配表 
+FTP Server 文件传输服务器 
+Fax modem 传真调制解调器 
+FDDI 光纤分布式数据接口 
+FAT 文件分配表 
+FLASH 动感网页制作工具 
+FTP 文件传输协议 
+FAT32 32位文件分配表 
+Firewall 防火墙 
+Flash Flash 
+Full－Duplex Transmissions 全双工传输 
+Front－End System 前端（台）系统 
+Front－End Processor 前端（台）处理机 
+Frequency Division Multiplexing 频分多路复用 
+Frames in Communication 通信帧 
+Frame Relay 帧中继 
+Fractional T1／Fractional T3 部分T1／部分T3 
+Forwarding 转发 
+Flow Control Methods 流控方法 
+FINGER FINGER实用程序 
+Filtering 筛选，过滤 
+File Transfer Protocol 文件传输协议 
+File Transfer Access and Management 文件传输访问和管理 
+File Systems in the Network Environment 网络环境中的文件系统 
+File Systems，Distributed 分布式文件系统 
+Filesharing 文件共享 
+File Server 文件服务器 
+Fileand Directory Permissions，Windows NT Windows NT的文件和目录许 
+File and Directory Attributes，NetWare NetWare的文件和目录属性 
+Fiber Channel 光纤通道 
+Fiber－Optic Cable 光缆 
+Fiber Distributed Data Interface 光纤分布式数据接口 
+Federated Naming Services，SunSoft ONC SunSoft ONC的联合命名服务 
+Federated Database 联合数据库 
+Federal Information Processing Standards 联邦信息处理标准 
+FAX Servers 传真服务器 
+
+--------------------------------------------------------------------------------
+[G] 
+
+GPRS　通用分组无线业务 
+GPRS　通用分组无线业务 
+3G 第三代移动通信 
+GUI 图形用户界面 
+Gateway 网关 
+Groupware 群件 
+Groups 组 
+Grounding Problems 接地问题 
+Government OSI Profile 政府OSI框架文件 
+Glue，Oracle Oracle的Glue解决方法 
+Global Naming Services 全局命名服务 
+Gateway－to－Gateway Protocol 网关对网关协议 
+Gateway 网关，信关 
+
+--------------------------------------------------------------------------------
+[H] 
+
+HDF 层次型数据格式 
+Hardware 硬件 
+HTTP 超文本传输协议 
+Hacker 黑客 
+HTML 超文本标记语言 
+HUB 集线器 
+HTTP 超文本传输协议 
+HTML 超文本链接标示语言 
+Hard Disk 硬盘 
+Hubs Hub，集线器，集中器 
+Hub Management Interface Hub管理接口 
+Hot Fix，Novell NetWare Novell NetWare的热修复 
+Host 主机 
+Horizontal Wiring System 水平布线系统 
+Hop 跳跃（计）数，过路数，中继数 
+Homogeneous Network Environments 同构网络环境 
+Home Directory 私人目录 
+High－Speed Serial Interface 高速串行接口 
+High－Speed Networking 高速联网 高速网包括传输速度高于在1990年前占主导地位的传统传输速度的LAN和W 
+High Performance Routing（HPR），IBM IBM 的高性能路由选择 
+High Performance Parallel Interface 高性能并行接口 
+High Performance File System 高性能文件系统 
+High－Level Data Link Control 高级数据链路控制（规程） 
+High Capacity Storage System（HCSS），Novell NetWare Novell NetWare的大容量存储系统 
+High－bit－rate Digital Subscriber Line 高位速率数字用户专用线 
+Heterogeneous Network Environments 异构网络环境 
+Hermes，Microsoft Microsoft的企业网管理系统 
+Handshaking 握手，联络，信号交换 
+Half－Duplex Transmission 半双工传输 
+
+--------------------------------------------------------------------------------
+[I] 
+
+IMAP4　信息访问协议4 
+Insert Mode　插入模式 
+iPAQ　Pocket PC 
+IIS　Internet信息服务器 
+IB 智能大厦 
+IrDA 红外线传输装置 
+IIS 网络信息服务器 
+IA 信息家电 
+INF File 适配器安装信息文件 
+Instructions Cache 指令缓存 
+INF File 信息文件 
+Internet backbone Internet骨干网 
+Interface 界面 
+Icon 图标 
+Icon 图标 
+Icon 图标 
+Icon 图标 
+Icon 图标 
+IT 信息技术产业 
+Internal Bus 内部总线 
+IIS Internet信息服务器 
+IT 信息技术 
+IDE 集成驱动电子设备 
+IP 网络协议 
+IRC 互联网中转聊天 
+ICP 互联网内容提供商 
+ICP 互联网内容提供商 
+Isohronous Service 等时服务 
+IS－IS Interdomain Routing Protocol IS－IS域 间路 由选择协议 
+ISDN／B－ISDN 综合业务数字网／宽带综合业务数字网 
+Iridium System 铱系统 
+Interrupts 中断 
+Interprocess Communication 进程间通信 
+Interoperability 互操作性，互用性 
+Internetwork Routing 网间路由选择 
+Internetwork Packet Exchange 网间分组交换 
+Internetworking 网络互联 
+Internet Protocol Internet网络协议，因特网协议 
+Internet Engineering Task Force Internet工程任务组 
+Internet Internet网因特网 
+
+--------------------------------------------------------------------------------
+[J] 
+
+JPEG 联合图像专家组规范 
+JSP 网页控制技术 
+Java 编程语言 
+Jukebox Optical Storage Device 自动换盘光盘存储设备 
+Jabber 超时传输，Jabber传输 
+
+--------------------------------------------------------------------------------
+[K] 
+
+Key recovry 密钥恢复 
+Knowbots Knowbots智能程序 
+Key Encryption Technology 密钥加密技术 
+Kernel 操作系统内核 
+Kermit Kermit文件运输协议 
+Kerberos Authentication Kerberos鉴别 
+--------------------------------------------------------------------------------
+[L] 
+
+LCD 液晶显示屏 
+Light Cabel 光缆 
+Leased line 专线 
+LPT 打印终端 
+LPT 打印终端接口 
+LAN 局域网 
+LU 6．2 LU 6．2协议 
+Lotus Notes Lotus的Notes软件 
+Logons and Logon Accounts 用户登录和登录帐号 
+Login Scripts 登录原语 
+Logical Units 逻辑单元 
+Logical Links 逻辑链路 
+LocalTalk LocalTalk网 
+Local Procedure Calls 本地过程调用 
+Local Loops 局部环路 
+Local Groups 本地组 
+Local Exchange Carrier 本地交换电信局 
+Local Area Transport 局域传输协议 
+Local Area NetWorks 局域网 
+Local Access and Transport Area 本地访问和传输区域 
+Load－Balancing Bridges 负载平衡桥接器，负载平衡网桥 
+Link State Routing 链路状态路由选择 
+Link Services Protocol，NetWare NetWare的链路服务协议 
+Link Layer 链路层 
+Link Access Procedure 链路访问规程 
+Line Conditioning 线路调节 
+Licensing Server API 许可证服务器 API 
+Legacy Systems 保留系统 
+Leased Line 租用线路 
+Learning Bridges 自学习桥接器 
+Leaf Objects 叶对象 
+Layered Architecture 分层体系结构 
+Large Internetwork Packet Exchange 大型网间分组交换 
+Laptop Connections 膝上机联网 
+LAN Workplace Products，Novell Novell的 LAN Workplace产品，Novell的局域网 Workplace产品 
+LAN Troubleshooting 局域网故障诊断 
+LANtastic LANtastic局域网操作系统 
+LAN Server 局域网服务器 
+LAN Requester 局域网请求解释器 
+LAN Manager，Microsoft Microsoft的局域 网管理器，Microsoft的 LAN Manager 
+
+--------------------------------------------------------------------------------
+[M] 
+
+Mosaic 摩塞克浏览器 
+MO 磁性光盘 
+Mac OS Mac操作系统 
+MO 磁光盘 
+MCSE 微软认证系统工程师 
+MUD 分配角色的游戏环境 
+Mainbus 系统总线 
+Mainboard 主板 
+MAN 城域网 
+Memory Stick Memory Stick 存储棒 
+MSI MSI 微星科技 
+Multistation Access Unit 多站访问部件 
+Multipurpose Internet Mail Extension Internet多功能邮件传递扩展标准 
+Multiprotocol Transport Network（MPTN），IBM IBM的多协议传输网络 
+Multiprotocol Router 多协议路由器 
+Multiprotocol Networks 多协议网络 
+Multiprocessor Systems 多处理器系统 
+Multiprocessing 多处理器处理 
+Multiplexing 多路复用技术 
+Multimedia 多媒体 
+Multidrop（Multipoint）Connection 多点连接 
+MOTIS（Message Oriented Text Interchange System） MOTIS（面向消息的文本交换系统） 
+Motif Motif 工具 
+Modems 调制解调器 
+Mobile Computing 移动计算 
+Mirroring 镜像 
+Middleware 中间件 
+Microwave Communication 微波通信 
+Micro－to－Mainframe Connectivity 微型计算机到大型计算机的互联性 
+Microsoft At Work Architecture Microsoft At Work体系结构 
+Microsegmentation 微分段 
+Microkernel 微内核 
+Microcom Networking Protocol（MNP） Microcom的联网协议 
+MicroChannel Architecture（MCA）Bus 微通道体系结构（MCA）总线 
+Metropolitan Area Networks 城域网 
+Messaging Application Programming Interface 消息应用程序编程接口 
+Messaging API，Inter－Application 应用程序间的消息传递 API 
+Messaging API，E－mail E－mail的消息传递 API 
+Message Transfer Agent 消息传送代理 
+Message Queuing Interface（MAI），IBM IBM的消息排队接口 
+
+--------------------------------------------------------------------------------
+[N] 
+
+NOC　网络操作中心 
+NAT　网址解析 
+NOC　网络操作中心 
+NAT 网址解析 
+NDIS 网络驱动程序接口 
+Network Architecture 网络体系结构 
+NSR 渲染引擎 
+NFS 网络文件系统 
+NAT 网址转换 
+NWLink IPX/SPX协议微软执行部分 
+NetBIOS 网络基本输入/输出系统 
+Network interface card 网卡 
+NTFS（New Technology File System） NTFS（新技术文件系统） 
+Novell Novell公司 
+Node 节点，结点，网点 
+Network Troubleshooting 网络故障诊断与维修 
+Network Service Protocol，DEC DEC网络服务协议 
+Networks 网络 
+NetWork Management 网络管理 
+Network Layer，OSI Model OSI模型的网络层 
+Network Interface Card 网络接口卡 
+Networking Blueprint 联网方案 
+Network File System 网络文件系统 
+Network Dynamic Data Exchange 网络动态数据交换 
+Network Driver Standards 网络驱动程序标准 
+Network Driver Interface Specification 网络驱动程序接口规范 
+NetWork Control Program 网络控制程序 
+Network Architecture 网络体系结构 
+NetWare Volumes NetWare的（文件）卷宗 
+NetWare Shell NetWare工作站外壳程序 
+NetWare SFT Level Ⅲ NetWare的三级系统容错 
+NetWare Products NetWare软件产品 
+NetWare Loadable Module NetWare的可装入模块 
+NetWare Link Service Protocol NetWare的链路服务协议 
+NetWare Electronic Software Distribution NetWare的电子软件分发 
+NetWare Disks，Partitions，and Volumes NetWare的磁盘、分区和卷宗 
+NetWare Core Protocol NetWare的核心协议 
+NetWare NetWare网络操作系统 
+NetView，IBM IBM的NetView网络管理系统 
+NetLS（Network License Server） NetLS（网络许可权服务器） 
+
+--------------------------------------------------------------------------------
+[O] 
+
+OEM　原装备生产厂商 
+OH　调制解调器连线 
+OSD 屏幕视控系统 
+OAW 光学辅助温式技术 
+OA 办公自动化 
+Open Source 开放源代码 
+OSF／1，Open Software Foundation 开放软件基金会 OSF／1操作系统 
+OS／2 OS／2操作系统 
+Organization Containers 机构包容器对象 
+Optical Libraries 光盘库，光盘存储库 
+Optical Fiber 光纤 
+Open View Management System，Hewlett－Packard HP的Open VieW管理系统 
+Open Systems Interconnection（OSI）Model 开放式系统互联（OSI）模型 
+Open Systems 开放式系统 
+Open Software Foundation（OSF） 开放软件基金会（OSF） 
+Open Shortest Path First（OSPF）Protocol 优先开放最短路径（OSPF）协议 
+Open Network Computing（ONC），SunSoft SunSoft的开放式 网络计算环境 
+Open Messaging Interface（OMI） 开放消息传递接口 
+Open Document Architecture 开放文档体系结构 
+OpenDoc Alliance，Apple Apple的OpenDoc联盟 
+OPEN DECconnect Structured Wiring 开放DECconnect结构化布线系统 
+OpenData－link Interface 开放数据链路接口 
+Open Database Connectivity（ODBC），Microsoft Microsoft的开放式数据库互联性 
+Open Collaborative Environment（OCE），Apple Apple的开放协作环境 
+On－line Transaction Processing 联机（在线）事务处理 
+Objects，NetWare Directory Services NetWare目录服务中的对象 
+Objects 对象，目标，实体 
+Object Request Broker 对象请求代管者 
+Object－Oriented echnology 面向对象技术 
+Object－Oriented Interfaces and Operating Systems 面向对象接口和操作系统 
+Object－Oriented Database 面向对象数据库 
+Object Management Group 对象管理组织 
+Object Management Architecture 对象管理体系结构 
+Object Linkingand Embedding 对象链接与嵌入 
+Object Broker，DEC DEC的对象代理者软件，DEC的Object Broker软件 
+
+--------------------------------------------------------------------------------
+[P] 
+
+Packetsniffer　包嗅探器 
+PHP4　嵌入式脚本描述语言 
+Push Technology　推技术 
+PVM　并行虚拟机 
+Path 路径、通路 
+PKI 公开密钥基础设施 
+Pull-down Menu 下拉菜单 
+PAP 密码验证协议 
+PnP 即插即用 
+PCL 打印机指令语言 
+PDS 个人数字系统 
+PCI 周边元件扩展接口 
+POP3 高级网络协议 
+PHP 服务器端编程语言 
+Plasma Display Plasma Display 等离子显示器 
+Punchdown Block 穿孔板，分线盒 
+Pulse－Code Modulation 脉码调制，脉冲代码调制 
+Public Switched Data NetWork 公共交换数据网 
+Public Key Cryptographic Systems 公开密钥加密系统 
+Public Data NetWorks（PDNs） 公用数据网（PDN） 
+PU2．1 物理单元（PU）2．1 
+Protocol Stack 协议栈 
+Protocols，Communication 通信协议 
+Protocol Data Unit 协议数据单元 
+Protocol Converters 协议转换器 
+Protocol Analyzers 协议分析器（程序） 
+Protected of Data 数据的保护 
+Protected Mode （受）保护模式 
+Properties of Objects 对象的性质，对象的特性 
+Propagation Delay 传播延迟 
+Project DOE（Distributed Objects Everywhere） 企业（工程）DOE（全分布式对象） 
+Private Network 私用网，专用网 
+Private Key Cryptography 私用密钥密码学 
+Privacy Enhanced Mail 增强安全的私人函件 
+Print Server 打印服务器 
+Printingon NetWare Networks NetWare网上打印（服务） 
+Premises Distribution System 规整化布线系统 
+Preemptive Multitasking 抢先多任务处理 
+PowerPC PowerPC微处理里器系列 
+PowerOpen Environment PowerOpen环境 
+
+--------------------------------------------------------------------------------
+
+[Q] 
+
+|龙哥救急呀，我的Win2k（professional）中了“红色代码III”病毒，该如何手动清除？ 
+Quadrature Amplitude Modulation 正交振幅调制，正交调幅 
+
+--------------------------------------------------------------------------------
+[R] 
+
+RDRAM　高频DRAM 
+RAID 冗余独立磁盘阵列 
+Registry 注册表 
+RISC CPU 精简指令集CPU 
+Registry 注册表 
+RDRAM Rambus动态随机存取内存 
+RSA Data Security RSA数据安全性 RSA数据安全性 
+Routing Protocols 路由选择协议 
+Routing Information Protocol 路由选择信息协议 
+Routing，OSI OSI的路由选择 
+Routing，NetWare NetWare的路由选择 
+Routing，Internet Internet路由选择 
+Routing，IBM IBM路由选择 
+Routing，AppleTalk AppleTalk路由选择 AppleTalk路由选择 
+Routers 路由器 
+RJ－11and RJ－45 Connections RJ－11和RJ－45连接 
+Ring Network Topology 环网拓扑结构 环网拓扑结构 
+Rights（Permissions）in Windows NT Windows NT权限（准许权限） 
+Rightsin Windows for Workgroups Windows for Workgroups中的权限 
+Rightsin Novell NetWare Novell NetWare中的权限 
+RG－62 Coaxial Cable RG－62同轴电缆 
+RG－58 Coaxial Cable RG－58同轴电缆 
+Replication 复制 
+Repeater 中继器，重复器 
+Remote Procedure Call 远程过程调用 
+Remote Access Software 远程访问软件 
+Regional Bell Operating Companies（RBOC） 地方贝尔运营公司 
+Redundant Arrays of Inexpensive Disks（RAID） 廉价磁盘冗余阵列 
+Reduced Instruction Set Computer 精简指令系统（集）计算机 
+Redirector 重定向器（程序） 
+RAM Mobile Data RAM 移动数据公司 
+Radio Networks 无线电网络 
+
+--------------------------------------------------------------------------------
+[S] 
+
+SSL　安全套层 
+SAA　系统应用架构 
+SMP 对称多处理结构 
+SET 安全电子商务协议 
+SNA 系统网络结构 
+Subnet 子网 
+SSL 安全套接层协议 
+Server 服务器 
+SMP 对称式多处理器 
+Serial Interface 串行接口 
+SOHO 小型办公与家庭办公 
+Scanner 扫描仪 
+Search Engine 搜索引擎 
+Screen Saver 屏幕保护程序 
+Socket 7 接口结构 
+SONET 同步光纤网 
+SMTP 简单邮件传送协议 
+SCSI 小型计算机系统接口 
+SGRAM 同步图形动态随机存取内存 
+SDRAM 同步动态随机存取内存 
+SystemView，IBM IBM的SystemView网络管理系统 
+Systems Network Architecture（SNA），IBM IBM 系统网络体系结构 
+Systems Application Architecture 系统应用体系结构 
+System Object Model（SOM），IBM IBM的系统对象模型（SOM） 
+System Fault Tolerance 系统容错 
+Synchronous Optical Network 同步光纤网 
+Synchronous Data Link Control 同步数据链路控制（规程） 
+Synchronous Communication 同步通信 
+Symmetrical Multiprocessing 对称多处理 
+Switching Hubs 交换式集线器 
+Switched Virtual Circuit 交换式虚电路 
+Switched Services 交换式服务 
+Switched Multimegabit Data Service 交换式多兆位数据服务 
+Switched－56 Services Switched－56服务，交换式56服务 
+Surge Suppressors 浪涌电压抑制器，电涌抑制器 
+Supervisor 超级用户，监管员 
+SunOS，SunSoft SunSoft的SunOS操作系统 
+SunNet Manager，Sun Microsystems，Inc． Sun公司的 SunNet Manager 
+Sun Microsystems，Inc． Sun 微系统公司 
+SunLink Network Sunlink网 
+
+--------------------------------------------------------------------------------
+[T] 
+
+TFT 有源矩阵彩色显示器 
+TFTP 小文件传输协议 
+Transport layer 传输层 
+Taskbar 任务条 
+Twisted－Pair Cable 双绞线，双绞线电缆 
+Tuxedo，UNIX System Laboratories UNIX系统实验室的 Tuxedo中间件 
+Tunneling 管道传送，隧道，管道传输 
+Trustees 受托者 
+Troubleshooting 故障诊断与维修，排错 
+Trivial File Transfer Protocol 普通文件运输协议 
+Transport Protocol 传输协议 
+Transport Layer Interface 运输层接口 
+Transport Layer，OSI Model OSI模型的运输层 
+Transmission Media，Methods，and Equipment 传输介质、方法和设备 
+Transmission Control Protocol／Internet Protocol 传输控制协议／Internet协议 
+Transfer Rates 传输率 
+Transceiver，Ethernet 以太网收发器，以太网的接收发送器 
+Transaction Processing 事务处理 
+Topology 拓扑结构 
+Token Ring NetWork 令牌环网 
+Token Bus NetWork 令牌总线网 
+Token and Token Passing Access Methods 令牌和令牌传递访问方式 
+Time Synchronization Services 时间同步服务 
+Time Domain Reflectometer 时域反射计（仪，器） 
+Throughput 吞吐率，处理能力 
+Threads 线程 
+Testing Equipment and Techniques 测试设备和技术 
+Terminator 终端器，终结器，终止器 
+Terminal Servers 终端服务器 
+Terminal 终端 
+Telnet Telnet程序 
+Telenet Telenet网 
+Telecommunication 电信，远程通信 
+Technical Office Protocol 技术办公系统协议 
+TeamLinks，DEC DEC的群件 TeamLinks 
+Taligent Taligent公司 
+T1／T3 Services T1／T3服务
+--------------------------------------------------------------------------------
+[U] 
+
+UDA　统一数据读取 
+UML 统一建模语言 
+UTP 无屏蔽双绞线 
+URL 统一资源定位格式 
+UPS 不间断电源 
+Ultra DMA 33 同步DMA协定 
+UNIX 32位操作系统 
+UNIX 操作系统 
+USB 通用串行总线 
+Users and Groups 用户和（小）组 
+User Datagram Protocol 用户数据报协议 
+User Agent 用户代理 
+USENET USENET网 
+Unshielded Twisted Pair 非屏蔽双绞线 
+UNIX－to－UNIX Copy Program UNIX系统间文件拷贝程序 
+UNIX System Laboratories UNIX系统实验室 
+UNIX International UNIX国际 
+UNIX UNIX操作系统 
+Unit of Work 作业单元，工作单元 
+Uninterruptible Power Supply 不间断电源 
+Unified Network Management Architecture（UNMA），AT＆T AT＆T的统一网络管理体系结构 
+
+--------------------------------------------------------------------------------
+[V] 
+
+Virtual Desktop　虚拟桌面 
+VoxML　语音标记语言 
+Video Compression 视频压缩 
+Virtual reality 虚拟现实 
+VOD 视频传播系统 
+VESA 视频电子标准协会 
+VRML 虚拟现实建模语言 
+VESA 视频电子标准 
+Volume Spanning 卷宗的跨越 
+Volumes，NetWare NetWare的卷宗 
+Virtual Terminal（VT） 虚拟终端 
+Virtual Telecommunication Access Method 虚拟远程通信访问方法 
+Virtually Integrated Technical Architecture Lifecycle 虚拟集成技术体系结构生命周期 
+Virtual File Systems 虚拟文件系统 
+Virtual Data Networks 虚拟数据网 
+Virtual Circuit 虚电路 
+VINES，Banyan Banyan的VINES操作系统 
+Videoconferencing and Desktop Video 电视会议和台式（桌面）视频系统 
+Very Small Aperture Terminals（VSATs） 卫星小站电路设备 
+Vertical Wiring 垂直布线系统 
+Vendor Independent Messaging （VIM），Lotus Lotus 的厂商无关消息传递应用程序编程接口 
+“V dot”Standards，CCITT CCITT（ITU）的“V点”标准 
+VAX，Digital Equipment Corporation（DEC） 数字设备公司（DEC）的 VAX 
+Value－Added Carrier 增值网 
+--------------------------------------------------------------------------------
+[W] 
+
+WINS　IP解析 
+WYSIWYG 所见即所得 
+WEB VOD WEB视频点播 
+Wizard 向导 
+Wavetable 波表合成 
+WindowsCE 操作系统 
+WAP 无线应用协议 
+Workstation 工作站 
+Workplace OS Workplace操作系统 
+Workgroups 工作组，（用户）组 
+Workflow Software 工作流软件 
+Wiring 布线 
+Wireless Mobile Communication 无线移动通信 
+Wireless LAN Communication 无线局域网通信 
+Windows Telephony Application Interface Windows 电话应用程序接口 
+Windows Sockets API Windows套节字（嵌套字）API 
+Windows Open System Architecture（WOSA） Windows开放式系统体系结构（WOSA） 
+Windows NT Advanced Server，Microsoft Microsoft的 Windows NT高级服务器操作系统 
+Windows NT，Microsoft Microsoft的Windows NT操作系统 
+Windows for Workgroups，Microsoft Microsoft的Windows for Workgroups操作系统 
+Wide Area Networks 广域网 
+WHOIS（“Who Is”） WHOIS数据库 
+--------------------------------------------------------------------------------
+[X] 
+
+XUL　扩展用户接口语言 
+XON/XOFF　异步通信协议 
+X2/DSL　调制解调器 
+XSLT XSL变换描述 
+XUL 扩展用户接口语言 
+XQL XML查询语言 
+XML 扩展标签语言 
+X Window X窗口，X Windows图形用户接口 
+X／Open X／Open公司，X／Open国际联盟有限公司 
+XMODEM Protocol XMODEM协议 
+Xerox Network System Xerox网络系统 
+X．500 Directory Services X．500目录服务 
+X．400 Message Handling System X．400消息处理系统 
+X．25 X．25 协议 
+
+--------------------------------------------------------------------------------
+[Y] 
+
+Ymodem Ymodem协议 
+
+--------------------------------------------------------------------------------
+
+[Z] 
+
+Zmodem　Zmodem协议 
+Zip Drive Zip驱动器 
+ZIP 压缩文件格式 
+Zone Multicast Address，AppleTalk AppleTalk的区广播地址 
+Zone Information Table（ZIT），AppleTalk AppleTalk 的区信息表 
+Zone Information Protocol（ZIP），AppleTalk AppleTalk的区信息协议 
+Zone，AppleTalk AppleTalk 的区，AppleTalk的域 
+ZMODEM Protocol ZMODEM 协议

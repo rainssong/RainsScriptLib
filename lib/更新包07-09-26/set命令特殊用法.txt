@@ -1,0 +1,48 @@
+1、利用set /a去掉日期等数字前面的0，如：2007-09-25中月份中的09前面的0(当然这个月份是未知的，简单的说就
+
+是不管前面有没有0都要保证去掉):
+演示代码：
+
+@echo off
+set Day=1%date:~5,2%
+set /a Day-=100
+echo %Day%
+pause>nul
+另外，还可以(在深入运用时，比前一种更有优势)：
+
+@echo off
+set/a day1=%date:~5,1%,day2=%date:~6,1%
+set/a day=%day1%*10+%day2%
+echo %day%
+pause>nul
+
+2、利用set /a（数值运算 除法中除数不允许出现0）返回值来设置数值运算的进位标志；
+演示代码：
+
+@echo off 2>nul 3>nul
+set/a num1=7,num2=2
+set/a var=%num1%+%num2%
+set /a 1/(%var%/10) && echo 大于10 ||echo 小于10
+pause>nul
+再附一特大数值的加法运算演示代码：（先补位）
+
+::code by youxi01@cmd_xp
+@echo off&setlocal enabledelayedexpansion
+set num1=984322212445613542523552165432136516565135132354123432987619431469731611346143789
+set num2=657973265856194306419643120641631361303163006131061301613061130161300613061130
+call :lineup num1
+call :lineup num2
+set/a flag=0
+for /l %%i in (1 1 199) do (
+set/a var=!num1:~-%%i,1!+!num2:~-%%i,1!+!flag!
+set var=0!var!
+set flag=!var:~-2,1!
+set str=!var:~-1!!str!
+)
+for /f "delims=0 tokens=*" %%i in ("!str!") do echo %%i
+pause>nul
+
+:lineup obj
+    for /l %%i in (1 1 200) do set %1=0!%1!
+    call set %1=!%1:~-200!
+

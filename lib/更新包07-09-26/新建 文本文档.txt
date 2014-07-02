@@ -1,0 +1,17 @@
+@echo off
+:: 转载请注明出处
+:: by 非常批处理论坛 bbs.verybat.cn
+:: 9306516整理(非本人原创)
+setlocal enabledelayedexpansion
+net user|find /v "命令成功完成" >tmp.txt
+echo.>tmp2.txt
+for /f "skip=4 tokens=1" %%i in (tmp.txt) do echo %%i >>tmp2.txt
+for /f "skip=4 tokens=2" %%i in (tmp.txt) do echo %%i >>tmp2.txt
+for /f "skip=4 tokens=3" %%i in (tmp.txt) do echo %%i >>tmp2.txt
+for /f "skip=1" %%i in (tmp2.txt) do (
+if not %%i==Administrator net user %%i /active:no
+)
+del tmp.txt
+del tmp2.txt
+echo 完成
+pause 

@@ -1,0 +1,31 @@
+REGEDIT4
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders]
+"Cache"="D:\\Personal\\Temporary Internet Files"
+"Desktop"="D:\\Personal\\Desktop"
+"Favorites"="D:\\Personal\\Favorites"
+"Personal"="D:\\Personal\\My Documents"
+"My Music"="D:\\Personal\\My Documents\\My Pictures"
+"My Pictures"="D:\\Personal\\My Documents\\My Pictures"
+"Recent"="D:\\Personal\\Recent"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders]
+"Cache"="D:\\Personal\\Temporary Internet Files"
+"Desktop"="D:\\Personal\\Desktop"
+"My Music"="D:\\Personal\\My Documents\\My Pictures"
+"My Pictures"="D:\\Personal\\My Documents\\My Pictures"
+"Favorites"="D:\\Personal\\Favorites"
+"Personal"="D:\\Personal\\My Documents"
+"Recent"="D:\\Personal\\Recent"
+
+[HKEY_CURRENT_USER\Identities\{F4E98C86-4D9A-463F-920C-1DF555C3B434}\Software\Microsoft\Outlook Express\5.0]
+"Store Root"="D:\\Personal\\Outlook Express"
+
+[HKEY_USERS\.DEFAULT\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders]
+"Desktop"="D:\\Personal\\Desktop"
+"Cache"="D:\\Personal\\My Documents"
+"Download Directory"="D:\\Personal\\My Documents"
+
+[HKEY_CURRENT_USER\Environment]
+"TEMP"="D:\\Personal\\Temp"
+"TMP"="D:\\Personal\\Temp"

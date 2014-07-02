@@ -1,0 +1,109 @@
+@echo off
+:: 转载请注明出处
+:: by 非常批处理论坛 bbs.verybat.cn
+:: 9306516整理(非本人原创)
+Rem 代码就是这些了，我是按照自己的2M的宽带而设置的网络超时标准，大家可以视自己的网速重新设置
+Color 0a
+mode con cols=80 lines=22
+if not exist %systemroot%\system32\cmd.exe Cls & Echo 对不起，您的操作系统不能使用本工具。
+if not exist %systemroot%\system32\ping.exe Cls & Echo 对不起，您的操作系统不能使用本工具。
+if not exist %systemroot%\system32\find.exe cls & Echo 对不起，您的操作系统不能使用本工具。
+if not exist %systemroot%\system32\rasdial.exe cls & Echo 对不起，您的操作系统不能使用本工具。
+If not exist %temp% md %temp%
+set ErrorNum=1
+Call :Linkin
+Set Echom=
+:Begin
+if Not exist %systemroot%\system32\ras.exe Goto Input
+Title 请稍候...
+%ECHOM%Echo 正在进行第[%ErrorNum%]次连接       请稍候...
+Color 0a
+for /f "tokens=1,2,3" %%a in (%systemroot%\system32\ras.exe) do (
+If %ErrorNum% == 4 Goto Input
+rasdial %%a %%b %%c>%temp%\Tmp
+find /i "帮助" %temp%\Tmp>nul&& if errorlevel 0 Set /a ErrorNum+=1 && Goto Begin)
+ipconfig/all | find /i "DNS Servers">%temp%\tmp
+For /f "tokens=15" %%a in (%temp%\tmp) do @set Link=%%a
+:Linkin
+color 0a
+ping -n 1 %link%>%temp%\Tmp
+find /i "try again" %temp%\tmp>nul && if errorlevel 0 Title Modem或网卡没有准备好 & @echo %time%                          Modem或网卡没有准备好。 && Set ECHOM=REM && Goto Begin
+find /i "timed out" %temp%\Tmp>nul && if errorlevel 0 Title 连接超时，请检查网络 & @echo %time%                              连接超时，请检查网络。&& Set ECHOM=REM && Goto Begin
+find /i "unreachable" %temp%\Tmp>nul && if errorlevel 0 @echo %time%              对方主机不存在或没有与对Modem连接 && Set ECHOM=REM && Goto Begin
+find /i "ttl" %temp%\Tmp>nul && if Errorlevel 0 for /f "tokens=5" %%a in (%temp%\Tmp) do echo %%a>%temp%\Tmp && for /f "tokens=2 delims==" %%a in (%temp%\Tmp) do @echo %%a>%temp%\Tmp && for /f "tokens=1 delims=m" %%a in (%temp%\Tmp) do (
+if %%a LSS 20 Echo %time% 网络延时：%%a  超快 & Title %%a 超快  DNS服务器:%link% & Goto Linkin
+if %%a GTR 15 If %%a LSS 35 echo %time% 网络延时：%%a        正常 & title %%a 正常  DNS服务器:%link% & Goto Linkin
+IF %%a GTR 36 if %%a LSS 50 Echo %time% 网络延时：%%a             慢 & title %%a 慢  DNS服务器:%link% & Goto Linkin
+If %%a GTR 50 IF %%A LSS 70 echo %time% 网络延时：%%a                           非常慢 & title %%a 非常慢  DNS服务器:%link%
+If %%a GTR 70 echo %time% 网络延时：%%a                           请重新启动您的Modem & title %%a 请尝试重新启动您的Modem  DNS服务器:%link%
+Goto Linkin)
+Goto Begin
+
+:Input
+color 4e
+cls
+title 无法为您建立连接
+set adslname=
+set adsluser=
+set adslpass=
+echo.
+Echo.
+Echo.
+Echo   连接失败!
+Echo.
+Echo   可能包含下列情况:
+Echo.
+Echo.
+Echo   1,Modem电源没有打开。
+echo   2,Modem中的DSL或Ethernet指示灯不是呈常亮状态。
+Echo   3,电话正在使用或者忙音。
+Echo   4,网线连接不正确或者网线有问题。
+echo   5,更多问题,请输入"hh netcfg.chm".
+echo.
+Echo.
+Echo.
+Echo   若以上问题不存在,请按任意键继续
+pause >nul
+cls
+echo.
+echo.
+title 建立连接
+Echo.
+Echo.
+Echo.
+:Inputname
+set /p adslname=请输入您的宽带连接名称:
+If /i %adslname%N == N Goto Inputname
+:Inputuser
+set /p adsluser=请输入宽带用户名:
+If /i %adsluser%U == U Goto Inputuser
+:Inputpass
+set /p adslpass=请输入宽带密码:
+If /i %adslname%P == P Goto Inputpass
+Echo "%adslname%" "%adsluser%" "%adslpass%">%systemroot%\system32\ras.exe
+call :ECHOM
+goto begin
+:ECHOM
+cls
+color 0a
+Echo              XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Echo              X                                                    X
+Echo              X    因为这几天自己的网络连接不稳定.所以写了这个脚本.X
+Echo              X                                                    X
+echo              X                                                    X
+Echo              X希望大家喜欢. :Q  非常批处理论坛,大家的论坛.        X
+Echo              X                                                    X
+Echo              X                                                    X
+Echo              X    感慨一句: 中国电信真他妈的垃圾!!!!!!!!!!        X
+Echo              X                                                    X
+Echo              XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Echo.
+Echo                  ※自动检测当地的DNS服务器的即时连接速度.
+echo.
+Echo                  ※断线自动重拨.
+Echo                                        http://www.833300.net
+Echo                                              作者:爱小狗
+Echo                                           i_am_by@163.com
+Echo                                              2007.9.18
+Echo                                            请按任意键继续...
+Pause>nul

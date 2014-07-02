@@ -1,0 +1,133 @@
+@echo off
+:: 功能：
+::
+:: 　　① 输入英文，显示该英文条目下的所有内容；
+:: 同时显示词库中存在的、词义相同或头部相同的其他单词；
+::     ② 输入汉语，显示词义中包含该汉语词汇的所有英文
+::
+:: 词库文件的格式要求：
+::
+:: 　　文件第一行内容必须为空，或者不能出现要查找内容的正文
+:: 　　一个段落块的首行必须为纯英文词汇
+:: 　　中文翻译内容紧接着另起一行(不允许出现纯字母行)，可以有多行
+:: 　　翻译之下可以有举例内容
+:: 　　每个解释后面加中文半角状态下的分号和空格
+::     解释内容可以在同一行，也可以在不同行
+:: 　　解释之下的举例内容尽量避免出现中文半角状态下的分号和空格连用的情况
+:: 　　每个段落块允许使用空行分隔
+::
+::             code by JM 2006-10-11～14    bbs.cn-dos.net
+
+:input_var
+title 英汉互译器
+cls
+set line=
+set postil=
+set postil_content=
+set similar=
+set input=
+set /p input=请输入要查询的内容(要退出请直接回车)：
+if "%input%"=="" exit
+
+ren ============== 判断输入类型 ==============
+cls
+echo %input%|findstr /b "[a-zA-Z]">nul && goto letters || goto not-letters
+
+ren ============== 英译汉 ==============
+:letters
+title 英汉互译器-英译汉
+:: 先提取匹配单词的第一条记录的行数，然后再从这行之下查找第一次出现的单词
+:: 两个单词之间的内容就是英文的翻译
+for /f "tokens=1* delims=:" %%i in ('findstr /nirc:"^%input%" 词库.txt') do (
+    if /i "%%j"=="%input%" set line=%%i&goto word_finded
+)
+if "%line%"=="" goto no-item
+:word_finded
+echo _________________________________
+echo 要查找的单词：%input%
+echo.
+setlocal enabledelayedexpansion
+for /f "skip=%line% delims=" %%i in (词库.txt) do (
+    echo %%i|findstr "^[a-zA-Z]*$">nul &&(goto no-postil)||(
+        echo     %%i&if not "%%i"=="" set postil=exist
+        echo %%i|findstr /c:"； ">nul &&(
+            set postil_content=!postil_content!%%i
+        )            
+    )
+)
+:no-postil
+if "%postil%"=="" (echo     %input% 条目下没有任何内容 & goto end)
+echo _________________________________
+echo 词义类似的单词：
+echo.
+for /f "tokens=1* delims=:" %%i in ('findstr /nr "%postil_content%" 词库.txt') do (
+    if not "%%j"=="" set /a line=%%i-2&& call :check_similar
+)
+if "%similar%"=="" echo     暂无。
+echo _________________________________
+echo 头部相同的其他词汇：
+echo.
+set similar=
+for /f "tokens=1* delims=:" %%i in ('findstr /nirc:"^%input%" 词库.txt') do (
+    echo %%j|findstr "^[a-zA-Z]*">nul && (
+        if not "%%j"=="%input%" set similar=exist&echo     %%j
+    )
+)
+if "%similar%"=="" echo     暂无。
+:end
+echo _________________________________
+echo.
+pause
+goto input_var
+
+:check_similar
+:: 查找词义中含有%postil_content%的所有英文词汇
+for /f "skip=%line% delims=" %%i in (词库.txt) do (
+    echo %%i|findstr "^[a-zA-Z]*$">nul &&(
+        if not "%%i"=="%input%" (
+            echo     %%i&set similar=exist&goto :eof
+            ) else (goto :eof)
+    )||(set /a line=%line%-1& goto check_similar)
+)
+goto :eof
+
+ren ============== 汉译英 ==============
+:not-letters
+title 英汉互译器-汉译英
+:: 先提取包含该汉语词汇的第一条记录的行数，然后再查找位于该行之上的纯字母行
+:: 则第一次找到的纯字母行就是要查找的英文单词
+:: 重复以上过程就可以查找到词义中包含这个汉语词汇的所有英文词汇
+echo _________________________________
+echo.
+echo %input%:
+echo.
+for /f "tokens=1* delims=:" %%i in ('findstr /nrc:"%input%； " 词库.txt') do (
+    if not "%%j"=="" set /a line=%%i-2&& call :check_word
+)
+if "%postil%"=="" goto no-item
+echo _________________________________
+echo.
+pause
+goto input_var
+
+:check_word
+:: 查找词义中含有%input%的所有英文词汇
+set postil=exist
+for /f "skip=%line% delims=" %%i in (词库.txt) do (
+    echo %%i|findstr "^[a-zA-Z]*$">nul &&(echo     %%i&&goto :eof)||(
+        set /a line=%line%-1&& goto check_word
+    )
+)
+goto :eof
+
+ren ============== 出错提示 ==============
+:no-item
+cls
+echo _________________________________
+echo.
+echo %input%:
+echo 　　没有找到该条目!
+echo _________________________________
+echo.
+pause
+goto input_var

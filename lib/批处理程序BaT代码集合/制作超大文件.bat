@@ -1,0 +1,1 @@
+fsutil file Createnew a.txt 1024
