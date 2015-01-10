@@ -20,6 +20,8 @@
 #	127.0.0.1       localhost
 #	::1             localhost
 
+127.0.0.1       localhost
+
 127.0.0.1       87.98.165.24
 127.0.0.1       91.121.154.202
 127.0.0.1       activation.guitar-pro.com
