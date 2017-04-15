@@ -1,5 +1,5 @@
-echo input content:
-set /P C=[Choice]: 
-FIND "%C%" *.*
+@echo off
+set /P C=search: 
+findstr /s /i "%C%" *.*
 pause
 

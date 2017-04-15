@@ -1,0 +1,1 @@
+copy *.txt result.txt
