@@ -1,5 +1,6 @@
 @echo off
 set /P C=search: 
-findstr /s /i "%C%" *.*
+set /P F=file(*.*):
+findstr /s /i "%C%" %F%
 pause
 
