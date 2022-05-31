@@ -21,9 +21,5 @@
 #	::1             localhost
 127.0.0.1       localhost
 
-127.0.0.1       www.weibo.com
 127.0.0.1       weibo.com
-127.0.0.1       www.renren.com
 127.0.0.1       www.zhihu.com
-127.0.0.1       t.qq.com
-127.0.0.1       qzone.qq.com
