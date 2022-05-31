@@ -22,13 +22,6 @@
 
 127.0.0.1       localhost
 
-#guitarpro
-127.0.0.1       87.98.165.24
-127.0.0.1       91.121.154.202
-127.0.0.1       activation.guitar-pro.com
-
-#adobe
-127.0.0.1  activate.adobe.com
 
 121.101.144.112 www.flickr.com
 121.101.144.112 up.flickr.com
